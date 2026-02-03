@@ -1,0 +1,19 @@
+<script>
+    class Count
+    {
+        count()
+        {
+          let  n=parseInt(prompt("Enter the number"))
+           let count=0
+            while(n>0)
+        {
+           let rem=n%10
+            count++
+            n=parseInt(n/10)
+        }
+        document.write("Count of the digit"+count)
+        }
+    }
+let obj=new Count()
+obj.count()
+</script>

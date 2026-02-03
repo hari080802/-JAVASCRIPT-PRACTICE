@@ -1,0 +1,23 @@
+<script>
+    n=parseInt(prompt("Enter the number"))
+    a=n
+    sum=0
+    function Armstrong()
+    {
+        while(n>0)
+    {
+        rem=n%10
+        sum=sum+rem*rem*rem
+        n=parseInt(n/10)
+    }
+    if(a==sum)
+    {
+        document.write("Armstrong number")
+    }
+    else
+    {
+        document.write("Not armstrong number")
+    }
+    }
+    Armstrong()
+</script>
